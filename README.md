@@ -2,8 +2,10 @@
 Trying to learn ebpf
 
 ## Installation requirements for python based programs
+'''
 sudo apt update
 sudo apt install bpfcc-tools linux-headers-$(uname -r) python3-bpfcc
+'''
 
 ## Installation requirements for c based programs
 sudo apt update
