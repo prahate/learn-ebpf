@@ -14,7 +14,7 @@ sudo apt install bpfcc-tools linux-headers-$(uname -r) python3-bpfcc
 ```
 sudo apt update
 
-sudo apt install clang llvm libbpf-dev linux-headers-$(uname -r) bpftool
+sudo apt install clang llvm libbpf-dev linux-headers-$(uname -r)
 
 sudo bpftool btf dump file /sys/kernel/btf/vmlinux format c > vmlinux.h
 ```
